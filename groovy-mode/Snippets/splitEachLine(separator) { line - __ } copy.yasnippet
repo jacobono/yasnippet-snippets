@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 934815EE-37A0-4431-B9E5-59F6D7B8319B
+# key: sel
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: splitEachLine(separator) { … }
+## condition: "
+# --
+splitEachLine(${1:separator}) {${2/(.+)/(?1: )/}${2:obj}${2/(.+)/(?1: ->)/}
+	$0
+}

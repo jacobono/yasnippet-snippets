@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: BF5639C4-2A58-46C0-8929-4A5010E6473B
+# key: with
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: withWriter { … }
+## condition: "
+# --
+withWriter {${1/(.+)/(?1: )/}${1:writer}${1/(.+)/(?1: ->)/}
+	$0
+}

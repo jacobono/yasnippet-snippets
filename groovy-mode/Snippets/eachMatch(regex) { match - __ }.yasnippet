@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: F25E60A2-0ED2-4625-BA43-D3748697A014
+# key: eam
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: eachMatch(regex) { … } 
+## condition: "
+# --
+eachMatch(/${1:regex}/) {${2/(.+)/(?1: )/}${2:match}${2/(.+)/(?1: ->)/}
+	$0
+}

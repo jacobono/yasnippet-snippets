@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 05CB185E-F016-4EA6-9B1C-EB7830E4F859
+# key: eafm
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: eachFileMatch { … } 
+## condition: "
+# --
+eachFileMatch(${1:filter}) {${2/(.+)/(?1: )/}${2:file}${2/(.+)/(?1: ->)/}
+	$0
+}

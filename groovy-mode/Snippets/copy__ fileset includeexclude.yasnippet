@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# uuid: 0A9B1368-E4C0-4B94-BE1D-6B9EA1F27415
+# key: copy
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: copy(todir: …) { fileset(dir: …) { include … exclude }
+## condition: "
+# --
+copy(todir:"${1:targetDir}") {
+	fileset(dir:"${2:sourceDir}") {
+		include(name:"${3:includeName}")
+		exclude(name:"${4:excludeName}")
+	}
+}

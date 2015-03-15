@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: F8BC3DDB-1C63-4419-9A88-239B592C7FCB
+# key: eav
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: eachValue { … }
+## condition: "
+# --
+eachValue {${1/(.+)/(?1: )/}${1:value}${1/(.+)/(?1: ->)/}
+	$0
+}

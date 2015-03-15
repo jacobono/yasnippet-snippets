@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 0F011DE5-992E-46E2-8DB2-2A7491463321
+# key: sf
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: shouldFail { … }
+## condition: "
+# --
+shouldFail${1/(.+)/(?1:\()/}${1:Exception}${1/(.+)/(?1:\))/} {
+	$0
+}

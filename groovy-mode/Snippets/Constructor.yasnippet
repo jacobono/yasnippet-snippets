@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 35E301FB-00C4-4CE6-9164-E84057FE1E9F
+# key: con
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: constructor() { … }
+## condition: "
+# --
+${1:private}${1/(.+)/(?1: )/}${2:${TM_FILENAME/(.*?)(\..+)/$1/}}(${3:args}) {
+	$0
+}

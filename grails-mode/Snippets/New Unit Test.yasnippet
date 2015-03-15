@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# uuid: 5E358AE7-2B58-4B13-B5DE-13834E7951B3
+# key: unit
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: New Unit Test
+## condition: "
+# --
+package $1
+		
+import grails.test.*
+		
+class ${2:Name}Tests extends GrailsUnitTestCase {
+
+	protected void setUp() {
+        super.setUp()
+    }
+
+    protected void tearDown() {
+        super.tearDown()
+    }
+
+	void test${3:Something}() {
+		 $0
+	}
+	
+}

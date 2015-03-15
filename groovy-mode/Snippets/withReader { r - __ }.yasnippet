@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: EC389D48-67B3-437C-B70D-9314EFC830A2
+# key: with
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: withReader { … }
+## condition: "
+# --
+withReader {${1/(.+)/(?1: )/}${1:reader}${1/(.+)/(?1: ->)/}
+	$0
+}

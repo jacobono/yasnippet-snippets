@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: EE21684A-4B7F-4AA2-BC9C-AE331CEC8F09
+# key: with
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: withWriterAppend(charset) { … }
+## condition: "
+# --
+withWriterAppend(${1:charset}) {${2/(.+)/(?1: )/}${2:writer}${2/(.+)/(?1: ->)/}
+	$0
+}

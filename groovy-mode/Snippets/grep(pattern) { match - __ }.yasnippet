@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: C0F820FA-1987-461A-88D7-3F5DFB2A9C84
+# key: grep
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: grep(filter) { … }
+## condition: "
+# --
+grep(${1:filter}) {${2/(.+)/(?1: )/}${2:obj}${2/(.+)/(?1: ->)/}
+	$0
+}

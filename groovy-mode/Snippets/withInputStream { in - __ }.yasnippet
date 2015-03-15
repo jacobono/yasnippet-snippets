@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: A79D8CA2-389B-4BEA-A273-43B6CC489C9F
+# key: with
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: withInputStream { … }
+## condition: "
+# --
+withInputStream {${1/(.+)/(?1: )/}${1:in}${1/(.+)/(?1: ->)/}
+	$0
+}

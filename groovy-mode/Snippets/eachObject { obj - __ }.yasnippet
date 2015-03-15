@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 37D97C76-E4A3-4938-863C-371AA781C00B
+# key: eao
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: eachObject { … }
+## condition: "
+# --
+eachObject {${1/(.+)/(?1: )/}${1:obj}${1/(.+)/(?1: ->)/}
+	$0
+}

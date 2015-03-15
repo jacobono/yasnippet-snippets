@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# uuid: EAED6F03-BBDF-43CE-9536-C965EA21840B
+# key: mc
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: mockConstraints
+## condition: "
+# --
+mockForConstraintsTests(${1:DomainClass})
+def test$1 = new $1()
+assertFalse test$1.validate()
+assertEquals "${2:nullable}", test$1.errors["${3:someproperty}"]

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 0964BA68-3780-43CB-9372-1DADD2FCADF2
+# key: replace
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: replaceAll(regex) { … }
+## condition: "
+# --
+replaceAll(/${1:regex}/) {${2/(.+)/(?1: )/}${2:match}${2/(.+)/(?1: ->)/}
+	$0
+}

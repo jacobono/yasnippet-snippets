@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# uuid: 0ECF0823-9E5A-4866-80A3-EFCCCA1F9615
+# key: eab
+# contributor: Translated from textmate snippet by yasmate.rb
+# name: eachByte { … }
+## condition: "
+# --
+eachByte {${1/(.+)/(?1: )/}${1:byte}${1/(.+)/(?1: ->)/}
+	$0
+}
